@@ -1,0 +1,54 @@
+$main1:#E2BB7C;
+$main2:#623E05;
+$main3:#BDD675;
+$font: 'Kaushan Script', cursive;
+$font2: 'Tangerine', cursive;
+$shadow: 2px 2px 4px #F2FDA8;
+
+body{
+  background-color: $main1;
+  background-image: url("http://res.cloudinary.com/hamolyva9/image/upload/c_scale,h_1225,w_1833/v1488138700/old_paper_s6fhxk.jpg");
+  margin-top: 5%;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 54px;
+  font-family: $font;
+  color: $main2;
+  text-shadow: $shadow;
+}
+.container{
+  background-color: $main3;
+  height: 5em;
+  width: 25em;
+  margin: 3% 7%;
+  padding: 3% 3% 0% 3%;
+  border-radius: 3%;
+  box-shadow: $shadow;
+  font-size: 44px;
+  font-weight: bolder;
+  font-family: $font2;
+  text-align: center;
+ 
+}
+.buttons{
+  //float: right;
+  margin-left: 35%;
+  button{
+    margin:2% 20% 0 0;
+    font-size: 30px;
+    font-family: $font;
+    box-shadow: $shadow;
+    
+  }
+}
+
+footer{
+  text-align: center;
+  bottom: 0;
+  font-weight: bolder;
+  color: $main2;
+  margin-top: 4%;
+}
